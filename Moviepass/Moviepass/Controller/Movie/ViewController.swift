@@ -6,6 +6,7 @@ class ViewController: UITableViewController {
     private let networkManager = NetworkManager()
     private var movie: Response.Movie?
     private let titles = ["featured", "topBoxOffice", "newReleases", "comingSoon", "nowPlaying"]
+    private var rowSelected = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,5 +71,28 @@ extension ViewController {
         default:
             return 0
         }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let pageViewController = PageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal)
+        
+        
+        switch indexPath.section {
+        case 0:
+            pageViewController.array = movie?.featured
+        case 1:
+            pageViewController.array = movie?.topBoxOffice
+        case 2:
+            pageViewController.array = movie?.newReleases
+        case 3:
+            pageViewController.array = movie?.comingSoon
+        case 4:
+            pageViewController.array = movie?.nowPlaying
+        default:
+            break
+        }
+        pageViewController.rowSelected = indexPath.row
+        self.rowSelected = indexPath.row
+        self.navigationController?.pushViewController(pageViewController, animated: true)
     }
 }
