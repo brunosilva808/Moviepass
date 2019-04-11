@@ -9,6 +9,7 @@ class VideoCell: UITableViewCell, ModelPresenterCell {
         didSet {
             guard let model = self.model else { return }
             self.titleLabel.text = model.title
+            self.thumbnailImageView?.image = UIImage()
             self.thumbnailImageView.loadImageUsingUrlString(urlString: model.imageURL)
         }
     }

@@ -27,7 +27,7 @@ class PageViewController: UIPageViewController {
         self.delegate = self
         
         let detailViewController = DetailViewController()
-        detailViewController.model = self.array[rowSelected]
+        detailViewController.model = self.array[self.rowSelected]
         self.pages.append(detailViewController)
         setViewControllers([self.pages.first!], direction: .forward, animated: true, completion: nil)
     }
@@ -37,6 +37,8 @@ class PageViewController: UIPageViewController {
 extension PageViewController: UIPageViewControllerDataSource {
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        
+        return nil
         
         if self.rowSelected != 0 {
             let detailViewController = DetailViewController()
@@ -64,6 +66,8 @@ extension PageViewController: UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
 
+        return nil
+        
         if self.rowSelected == self.pages.count - 1
         && self.array.count != self.rowSelected + 1 {
 

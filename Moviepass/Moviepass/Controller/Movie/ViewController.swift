@@ -11,6 +11,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.backgroundColor = UIColor(displayP3Red: 32/256, green: 42/256, blue: 54/256, alpha: 1)
+        self.tableView.separatorStyle = .none
         self.tableView.registerNib(for: VideoCell.self)
         
         self.networkManager.response(with: videosRequest, onSuccess: { [weak self] (response: Response.Movie) in
@@ -25,6 +27,12 @@ class ViewController: UITableViewController {
         }
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
 }
 
 extension ViewController {
@@ -44,6 +52,13 @@ extension ViewController {
             return tableView.reusableCell(for: indexPath, with: (movie?.nowPlaying[indexPath.row])!) as VideoCell
         default:
             return UITableViewCell()
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let headerView = view as? UITableViewHeaderFooterView {
+            headerView.contentView.backgroundColor = UIColor(displayP3Red: 32/256, green: 42/256, blue: 54/256, alpha: 1)
+            headerView.textLabel?.textColor = .white
         }
     }
     
@@ -91,6 +106,7 @@ extension ViewController {
         default:
             break
         }
+        
         pageViewController.rowSelected = indexPath.row
         self.rowSelected = indexPath.row
         self.navigationController?.pushViewController(pageViewController, animated: true)

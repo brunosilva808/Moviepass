@@ -25,12 +25,13 @@
 		2359E521225F81D60072DA5B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E520225F81D60072DA5B /* NetworkError.swift */; };
 		2359E523225F86A60072DA5B /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E522225F86A60072DA5B /* VideoCell.xib */; };
 		2359E52D225F89B40072DA5B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E525225F89B40072DA5B /* DetailViewController.swift */; };
-		2359E52E225F89B40072DA5B /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E526225F89B40072DA5B /* PageViewController.xib */; };
-		2359E52F225F89B40072DA5B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E527225F89B40072DA5B /* PageViewController.swift */; };
 		2359E530225F89B40072DA5B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E528225F89B40072DA5B /* DetailViewController.xib */; };
-		2359E531225F89B40072DA5B /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E52A225F89B40072DA5B /* PlayerDelegate.swift */; };
-		2359E532225F89B40072DA5B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E52B225F89B40072DA5B /* PlayerView.swift */; };
-		2359E533225F89B40072DA5B /* PlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E52C225F89B40072DA5B /* PlayerView.xib */; };
+		2359E53C225F98B30072DA5B /* PlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E535225F98B20072DA5B /* PlayerProtocol.swift */; };
+		2359E53D225F98B30072DA5B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E537225F98B20072DA5B /* PlayerView.swift */; };
+		2359E53E225F98B30072DA5B /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E538225F98B20072DA5B /* PageViewController.xib */; };
+		2359E53F225F98B30072DA5B /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E539225F98B30072DA5B /* PlayerDelegate.swift */; };
+		2359E540225F98B30072DA5B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359E53A225F98B30072DA5B /* PageViewController.swift */; };
+		2359E541225F98B30072DA5B /* PlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359E53B225F98B30072DA5B /* PlayerView.xib */; };
 		23DBE2BA224A489600405F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBE2B9224A489600405F12 /* AppDelegate.swift */; };
 		23DBE2BC224A489600405F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBE2BB224A489600405F12 /* ViewController.swift */; };
 		23DBE2C1224A489700405F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DBE2C0224A489700405F12 /* Assets.xcassets */; };
@@ -64,12 +65,13 @@
 		2359E520225F81D60072DA5B /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = "../../../../../../Desktop/OLXSwift API/OLXSwift/Networking/Service/NetworkError.swift"; sourceTree = "<group>"; };
 		2359E522225F86A60072DA5B /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 		2359E525225F89B40072DA5B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		2359E526225F89B40072DA5B /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
-		2359E527225F89B40072DA5B /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		2359E528225F89B40072DA5B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
-		2359E52A225F89B40072DA5B /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
-		2359E52B225F89B40072DA5B /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		2359E52C225F89B40072DA5B /* PlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerView.xib; sourceTree = "<group>"; };
+		2359E535225F98B20072DA5B /* PlayerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProtocol.swift; sourceTree = "<group>"; };
+		2359E537225F98B20072DA5B /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		2359E538225F98B20072DA5B /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
+		2359E539225F98B30072DA5B /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
+		2359E53A225F98B30072DA5B /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2359E53B225F98B30072DA5B /* PlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerView.xib; sourceTree = "<group>"; };
 		23DBE2B6224A489600405F12 /* Moviepass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moviepass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DBE2B9224A489600405F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DBE2BB224A489600405F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +108,6 @@
 				29E73B09C045974692A31A74 /* Pods-Moviepass.debug.xcconfig */,
 				512F095BFEB22049A6090DD4 /* Pods-Moviepass.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -185,22 +186,12 @@
 			isa = PBXGroup;
 			children = (
 				2359E525225F89B40072DA5B /* DetailViewController.swift */,
-				2359E526225F89B40072DA5B /* PageViewController.xib */,
-				2359E527225F89B40072DA5B /* PageViewController.swift */,
 				2359E528225F89B40072DA5B /* DetailViewController.xib */,
-				2359E529225F89B40072DA5B /* Player */,
+				2359E53A225F98B30072DA5B /* PageViewController.swift */,
+				2359E538225F98B20072DA5B /* PageViewController.xib */,
+				2359E536225F98B20072DA5B /* Player */,
 			);
 			path = Detail;
-			sourceTree = "<group>";
-		};
-		2359E529225F89B40072DA5B /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				2359E52A225F89B40072DA5B /* PlayerDelegate.swift */,
-				2359E52B225F89B40072DA5B /* PlayerView.swift */,
-				2359E52C225F89B40072DA5B /* PlayerView.xib */,
-			);
-			path = Player;
 			sourceTree = "<group>";
 		};
 		2359E534225F89BF0072DA5B /* Movie */ = {
@@ -210,6 +201,17 @@
 				23DBE2D0224A4D6700405F12 /* View */,
 			);
 			path = Movie;
+			sourceTree = "<group>";
+		};
+		2359E536225F98B20072DA5B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2359E539225F98B30072DA5B /* PlayerDelegate.swift */,
+				2359E535225F98B20072DA5B /* PlayerProtocol.swift */,
+				2359E537225F98B20072DA5B /* PlayerView.swift */,
+				2359E53B225F98B30072DA5B /* PlayerView.xib */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 		23DBE2AD224A489600405F12 = {
@@ -360,12 +362,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2359E53E225F98B30072DA5B /* PageViewController.xib in Resources */,
 				2359E523225F86A60072DA5B /* VideoCell.xib in Resources */,
 				23DBE2C4224A489700405F12 /* LaunchScreen.storyboard in Resources */,
 				2359E530225F89B40072DA5B /* DetailViewController.xib in Resources */,
 				23DBE2C1224A489700405F12 /* Assets.xcassets in Resources */,
-				2359E52E225F89B40072DA5B /* PageViewController.xib in Resources */,
-				2359E533225F89B40072DA5B /* PlayerView.xib in Resources */,
+				2359E541225F98B30072DA5B /* PlayerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +431,8 @@
 				23DBE2E2224A4D9000405F12 /* UICollectionView+Extension.swift in Sources */,
 				2358A17322576D690036D2D5 /* HTTPMethod.swift in Sources */,
 				2358A17022576D690036D2D5 /* APIConstant.swift in Sources */,
-				2359E52F225F89B40072DA5B /* PageViewController.swift in Sources */,
 				2358A17722576DA40036D2D5 /* Configuration.swift in Sources */,
 				23DBE2DF224A4D9000405F12 /* Utils.swift in Sources */,
-				2359E532225F89B40072DA5B /* PlayerView.swift in Sources */,
 				23DBE2E4224A4D9000405F12 /* ReusabelView.swift in Sources */,
 				2358A16D22576D690036D2D5 /* APIEndpoint.swift in Sources */,
 				2358A16B22576D690036D2D5 /* JSONParameterEncoder.swift in Sources */,
@@ -446,12 +446,15 @@
 				2358A16A22576D690036D2D5 /* URLParameterEncoder.swift in Sources */,
 				23DBE2E1224A4D9000405F12 /* ImageView+Extensions.swift in Sources */,
 				2359E521225F81D60072DA5B /* NetworkError.swift in Sources */,
+				2359E540225F98B30072DA5B /* PageViewController.swift in Sources */,
 				2358A16E22576D690036D2D5 /* Request+Movie.swift in Sources */,
+				2359E53F225F98B30072DA5B /* PlayerDelegate.swift in Sources */,
 				2358A17222576D690036D2D5 /* HTTPTask.swift in Sources */,
+				2359E53D225F98B30072DA5B /* PlayerView.swift in Sources */,
+				2359E53C225F98B30072DA5B /* PlayerProtocol.swift in Sources */,
 				2358A17122576D690036D2D5 /* NetworkRouter.swift in Sources */,
 				23DBE2E0224A4D9000405F12 /* UIView+UINib.swift in Sources */,
 				23DBE2BA224A489600405F12 /* AppDelegate.swift in Sources */,
-				2359E531225F89B40072DA5B /* PlayerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
