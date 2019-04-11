@@ -66,3 +66,28 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+Moviepass/Moviepass.xcworkspace/contents.xcworkspacedata
+Moviepass/Moviepass.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Moviepass/Pods/Manifest.lock
+Moviepass/Pods/Pods.xcodeproj/project.pbxproj
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-acknowledgements.markdown
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-acknowledgements.plist
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-dummy.m
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-frameworks.sh
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-Info.plist
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass-umbrella.h
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass.debug.xcconfig
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass.modulemap
+Moviepass/Pods/Target Support Files/Pods-Moviepass/Pods-Moviepass.release.xcconfig
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/ResourceBundle-youtube-ios-player-helper-swift-youtube-ios-player-helper-swift-Info.plist
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift-dummy.m
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift-Info.plist
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift-prefix.pch
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift-umbrella.h
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift.modulemap
+Moviepass/Pods/Target Support Files/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift.xcconfig
+Moviepass/Pods/youtube-ios-player-helper-swift/LICENSE
+Moviepass/Pods/youtube-ios-player-helper-swift/README.md
+Moviepass/Pods/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift/Assets/YTPlayerView-iframe-player.html
+Moviepass/Pods/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift/Assets/YTPlayerView-iframe-playerIPAD.html
+Moviepass/Pods/youtube-ios-player-helper-swift/youtube-ios-player-helper-swift/Classes/YTPlayerView.swift
